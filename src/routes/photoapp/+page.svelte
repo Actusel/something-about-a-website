@@ -1,4 +1,3 @@
-<nav> <a href="/">hem</a> <a href="/photoapp"><strong>PhotoApp</strong></a> </nav>
 <main>
     <h1>
         Photoapp
@@ -22,8 +21,8 @@
     color: MediumSeaGreen}
     .photos{
         display:flex;
-        margin-left: 1vw;
-        max-width: 98vw;
+        margin-left: 5vw;
+        max-width: 90vw;
         display:flex;
         overflow:hidden;
         align-items:center;

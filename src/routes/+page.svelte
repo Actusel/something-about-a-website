@@ -1,11 +1,10 @@
-<nav>  <a href="/"><strong>hem</strong></a> <a href="/photoapp">PhotoApp</a> </nav>
 <!--Delar upp sidan i två delar-->
 <main>
   <div>
 
     <h1> Albin Johansson </h1>
     <h2>Här har jag samlat min uppgifter jag gjort i samband med webbutveckling i årskurs 2 på Maja Beskowgymnasiet!</h2>
-    <h3>Inspirerade citat för min webbutvecklingsresa:</h3>
+    <h3>Inspirerade citat för min webbutvecklingsresa: undefined, error & null</h3>
     <!--Under denna kommer vi lägga till fler element-->
                 
    <!--Här kommer vi lägga till en bild senare i uppgiften 1.2.4 Extra styling-->  
