@@ -1,4 +1,4 @@
-<nav> <a href="/photoapp">Photo App</a> </nav>
+<nav>  <a href="/"><strong>hem</strong></a> <a href="/photoapp">PhotoApp</a> </nav>
 <!--Delar upp sidan i två delar-->
 <main>
   <div>

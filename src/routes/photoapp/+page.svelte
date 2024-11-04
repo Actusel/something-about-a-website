@@ -1,4 +1,4 @@
-<nav> <a href="/">Hem</a> </nav>
+<nav> <a href="/">hem</a> <a href="/photoapp"><strong>PhotoApp</strong></a> </nav>
 <main>
     <h1>
         Photoapp
@@ -8,30 +8,52 @@
     </p>
 </main>
 <div class="photos">
-    <div class='image-wrapper'> <img src="https://i.redd.it/rofzm44oka091.png" alt="bildinformation"> </div>
-    <div class='image-wrapper'> <img src="https://i.redd.it/vd9dc7wfk9471.png" alt="bildinformation"> </div>
-    <div class='image-wrapper'> <img src="https://miro.medium.com/v2/resize:fit:1400/0*YeaUsQyhXSL1TCTH.png" alt="bildinformation"> </div>
+    <div class='image-wrapper'> <img src={image} alt="bildinformation"> </div>
+    <div class='image-wrapper'> <img src={photo} alt="bildinformation"> </div>
+    <div class='image-wrapper'> <img src={picture} alt="bildinformation"> </div>
     </div>
 <style>
+    h1{
+        text-align: center;
+    font-size: 50px;
+    margin: 20px;
+     color: mediumaquamarine}
+    p{text-align: center;
+    color: MediumSeaGreen}
     .photos{
         display:flex;
-        max-width: 90vw;
+        margin-left: 1vw;
+        max-width: 98vw;
         display:flex;
         overflow:hidden;
         align-items:center;
         justify-content:center;
+        background-color: DeepPink;
     }
     .photos img{ width: 100%; }
 
-    .image-wrapper img{width: 100%}
+    .image-wrapper img{
+        width: 100%;
+        border-radius: 20px;
+        box-shadow: 4px 8px 10px rgba(0,0,0,0.2);
+    }
 
     .image-wrapper {
         flex:1;
         margin:10px;
+        flex-basis: 300px;
     }
 
-    .image-wrapper:hover { flex:2; }
+    .image-wrapper:hover { flex-grow:2;
+        transition:flex .5s;}
 
-    .image-wrapper:active { transform: scale(0.9); }
+    .image-wrapper:active { transform: scale(0.9);}
 
 </style>
+<script>
+    
+let image = "https://picsum.photos/id/70/367/267"
+let photo = "https://picsum.photos/id/88/367/267"
+let picture = "https://picsum.photos/id/93/367/267"
+
+</script>
