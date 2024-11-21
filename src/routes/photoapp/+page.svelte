@@ -1,3 +1,11 @@
+<script>
+    
+    let image = "https://picsum.photos/id/70/367/267"
+    let photo = "https://picsum.photos/id/88/367/267"
+    let picture = "https://picsum.photos/id/93/367/267"
+    
+</script>
+
 <main>
     <h1>
         Photoapp
@@ -49,10 +57,3 @@
     .image-wrapper:active { transform: scale(0.9);}
 
 </style>
-<script>
-    
-let image = "https://picsum.photos/id/70/367/267"
-let photo = "https://picsum.photos/id/88/367/267"
-let picture = "https://picsum.photos/id/93/367/267"
-
-</script>

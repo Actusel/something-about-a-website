@@ -23,8 +23,17 @@
 	import { base } from '$app/paths';
 </script>
 
-<nav>  <a href="{base}/">hem</a> <a href="{base}/photoapp">PhotoApp</a> </nav>
-<style>
-	nav{text-align: center;}
-</style>
+<nav>  <a href="{base}/">hem</a> <a href="{base}/photoapp">PhotoApp</a> <a href="{base}/register">Register</a> <a href="{base}/login">LogIn</a> </nav>
 <slot />
+
+<style>
+	
+:global(body), :global(html){
+  margin: 0%;
+  padding: 0%;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}    
+
+</style>
