@@ -1,7 +1,7 @@
 <script>
     import { base } from '$app/paths';
     import {users_store} from "$lib/user";
-	import { filter } from '@skeletonlabs/skeleton';
+
     import { onMount } from 'svelte';
 
     let users = []

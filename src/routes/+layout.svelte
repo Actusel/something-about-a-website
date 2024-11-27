@@ -23,11 +23,11 @@
 	import { base } from '$app/paths';
 </script>
 
-<nav>  <a href="{base}/">hem</a> <a href="{base}/photoapp">PhotoApp</a> <a href="{base}/register">Register</a> <a href="{base}/login">LogIn</a> </nav>
+<nav>  <a href="{base}/">Home</a> <a href="{base}/photoapp">Photo app</a> <a href="{base}/register">Register</a> <a href="{base}/login">Log in</a> <a href="{base}/shoppinglist">Shopping list</a> </nav>
 <slot />
 
 <style>
-	
+	a{margin-left: 30px;}
 :global(body), :global(html){
   margin: 0%;
   padding: 0%;
