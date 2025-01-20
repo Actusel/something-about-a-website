@@ -25,7 +25,7 @@
     //Hämta HTML-elementet med id:et visible
     var element = document.getElementById("visible");
     //Ändrar elementets CSS-egenskap display till default
-element.style.display = "flex"; // Visa elementet
+        element.style.display = "flex"; // Visa elementet
     await new Promise((r) => setTimeout(r, 1000 + Math.random() * 1000));
         element.style.display = "none";
         chat.push({user:'Eliza', message:eliza.transform(message)})

@@ -23,7 +23,15 @@
 	import { base } from '$app/paths';
 </script>
 
-<nav>  <a href="{base}/">Home</a> <a href="{base}/photoapp">Photo app</a> <a href="{base}/register">Register</a> <a href="{base}/login">Log in</a> <a href="{base}/shoppinglist">Shopping list</a> <a href="{base}/memory">memory</a> <a href="{base}/chat">chat</a> </nav>
+<nav>  <a href="{base}/">Home</a> 
+	<a href="{base}/photoapp">Photo app</a> 
+	<a href="{base}/register">Register</a> 
+	<a href="{base}/login">Log in</a> 
+	<a href="{base}/shoppinglist">Shopping list</a> 
+	<a href="{base}/memory">memory</a> 
+	<a href="{base}/chat">chat</a> 
+	<a href="{base}/search">search</a> 
+</nav>
 <slot />
 
 <style>
@@ -33,7 +41,6 @@
   padding: 0%;
   height: 100vh;
   width: 100vw;
-  overflow: hidden;
 }    
 
 </style>
