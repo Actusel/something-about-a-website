@@ -41,8 +41,25 @@
     {/each}
   </article>
   <h1>{pokemon.response.name}</h1>
-  {pokemon.response.moves[0].move.name}
-  <div>{Math.round(pokemon.response.weight*0.45359237/4.5)} kg</div>
+<div style="text-decoration:underline;">stats: </div>
+{#each pokemon.response.stats as vaporeon}
+  <div style="border-width: 4px; display:flex; margin-top:1px">
+    
+    <div style="border-width:1px;">
+      {vaporeon.stat.name}
+    </div>
+    {vaporeon.base_stat}
+  </div>
+{/each}
+  <div style="display: flex; border-width:4px; margin-top:1px"> 
+    <div style="border-width:1px;">weight(kg)</div>{Math.round(pokemon.response.weight*0.1)}
+  </div> 
+  <div style="text-decoration:underline; margin-top:3px">​ moves: ​</div>
+  {#each pokemon.response.abilities as ability}
+    <div>{ability.ability.name}</div>
+  {/each}
+
+  
 
   {/await} 
   <style>
@@ -51,6 +68,7 @@
         width: 90%;
         height: 30%;
         gap: 1em;
+        justify-content: center;
     }
   </style>
     
