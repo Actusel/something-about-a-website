@@ -41,6 +41,7 @@
     <input type="submit"  id="login" value=login >
 </form>
 <h2 style="color:white"> har du inte ett konto? <a href="{base}/register" style="text-decoration: underline;">REGISTERA</a> </h2>
+
 </div>
     
     

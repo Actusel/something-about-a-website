@@ -23,7 +23,7 @@
 
     function handleSubmit() {
         
-        let new_user = {username: name, password: password, email: email, color: color};
+        let new_user = {username: name, password: password, email: email, color: color, login_time: Infinity};
         if (users.filter(user => user.username == name && user.email == email).length>0){
             alert("uǝʞɐʇ ʎpɐǝɹlɐ")
             return 

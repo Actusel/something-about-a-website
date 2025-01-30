@@ -31,6 +31,7 @@
 	<a href="{base}/memory">memory</a> 
 	<a href="{base}/chat">chat</a> 
 	<a href="{base}/search">search</a> 
+	<a href="{base}/gotta-go-fast">limited time Login</a>
 </nav>
 <slot />
 
