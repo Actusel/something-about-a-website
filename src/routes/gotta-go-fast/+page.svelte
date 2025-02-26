@@ -36,9 +36,7 @@
                 
                 return
             }
-            else{
-            alert("✔️unsuccessfully logged in✔️")
-        }
+            else{alert("✔️unsuccessfully logged in✔️")}
     
         
         
@@ -86,9 +84,10 @@
 </main>
 
 <style>
+
     p{
         color:white; 
-        font-size: larger
+        font-size: larger;
     }
 
  main{
